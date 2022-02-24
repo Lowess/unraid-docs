@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unraid Docs</title>
+    <link>https://lowess.github.io/unraid-docs/</link>
+    <description>Recent content on Unraid Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Feb 2022 13:14:39 +1000</lastBuildDate><atom:link href="https://lowess.github.io/unraid-docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to docker</title>
+      <link>https://lowess.github.io/unraid-docs/docs/docker/00-intro/</link>
+      <pubDate>Wed, 23 Feb 2022 13:14:39 +1000</pubDate>
+      
+      <guid>https://lowess.github.io/unraid-docs/docs/docker/00-intro/</guid>
+      <description>Taken from Unraid Forum &amp;gt; Docker Template Xml Schema
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;Container&amp;gt; &amp;lt;Name&amp;gt;Pints&amp;lt;/Name&amp;gt; &amp;lt;Description&amp;gt;Raspberry Pints, beer tap display app[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW&amp;lt;/Description&amp;gt; &amp;lt;Registry&amp;gt;https://registry.hub.docker.com/u/sparklyballs/pints/&amp;lt;/Registry&amp;gt; &amp;lt;Repository&amp;gt;sparklyballs/pints&amp;lt;/Repository&amp;gt; &amp;lt;BindTime&amp;gt;true&amp;lt;/BindTime&amp;gt; &amp;lt;Privileged&amp;gt;false&amp;lt;/Privileged&amp;gt; &amp;lt;Environment/&amp;gt; &amp;lt;Networking&amp;gt; &amp;lt;Mode&amp;gt;bridge&amp;lt;/Mode&amp;gt; &amp;lt;Publish&amp;gt; &amp;lt;Port&amp;gt; &amp;lt;HostPort&amp;gt;81&amp;lt;/HostPort&amp;gt; &amp;lt;ContainerPort&amp;gt;80&amp;lt;/ContainerPort&amp;gt; &amp;lt;Protocol&amp;gt;tcp&amp;lt;/Protocol&amp;gt; &amp;lt;/Port&amp;gt; &amp;lt;/Publish&amp;gt; &amp;lt;/Networking&amp;gt; &amp;lt;Data&amp;gt; &amp;lt;Volume&amp;gt; &amp;lt;HostDir&amp;gt;/mnt/cache/appdata/pints/www&amp;lt;/HostDir&amp;gt; &amp;lt;ContainerDir&amp;gt;/var/www/Pints&amp;lt;/ContainerDir&amp;gt; &amp;lt;Mode&amp;gt;rw&amp;lt;/Mode&amp;gt; &amp;lt;/Volume&amp;gt; &amp;lt;Volume&amp;gt; &amp;lt;HostDir&amp;gt;/mnt/cache/appdata/pints/config&amp;lt;/HostDir&amp;gt; &amp;lt;ContainerDir&amp;gt;/config&amp;lt;/ContainerDir&amp;gt; &amp;lt;Mode&amp;gt;rw&amp;lt;/Mode&amp;gt; &amp;lt;/Volume&amp;gt; &amp;lt;/Data&amp;gt; &amp;lt;Version&amp;gt;05616fd2&amp;lt;/Version&amp;gt; &amp;lt;WebUI&amp;gt;http://[iP]:[PORT:80]/&amp;lt;/WebUI&amp;gt; &amp;lt;Banner&amp;gt;http://whatsmybeeragain.com/wp-content/uploads/2013/12/Whats-My-Beer-Logo-Banner-2-01-e1318366883801.png&amp;lt;/Banner&amp;gt; &amp;lt;Icon&amp;gt;http://fullersbarbeerfest.co.uk/files/6113/8705/6693/light-beer.png&amp;lt;/Icon&amp;gt; &amp;lt;ExtraParams&amp;gt;&amp;lt;/ExtraParams&amp;gt; &amp;lt;/Container&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Introduction to plugins</title>
+      <link>https://lowess.github.io/unraid-docs/docs/plugins/00-intro/</link>
+      <pubDate>Wed, 23 Feb 2022 13:14:39 +1000</pubDate>
+      
+      <guid>https://lowess.github.io/unraid-docs/docs/plugins/00-intro/</guid>
+      <description>Plugin format is .plg (XML)
+Example with Community Application
+&amp;lt;?xml version=&amp;#39;1.0&amp;#39; standalone=&amp;#39;yes&amp;#39;?&amp;gt; &amp;lt;!DOCTYPE PLUGIN [ &amp;lt;!ENTITY name &amp;#34;community.applications&amp;#34;&amp;gt; &amp;lt;!ENTITY author &amp;#34;Andrew Zawadzki&amp;#34;&amp;gt; &amp;lt;!ENTITY version &amp;#34;2022.02.06&amp;#34;&amp;gt; &amp;lt;!ENTITY md5 &amp;#34;f35abba3fe809c2d193fd407487b591b&amp;#34;&amp;gt; &amp;lt;!ENTITY launch &amp;#34;Apps&amp;#34;&amp;gt; &amp;lt;!ENTITY plugdir &amp;#34;/usr/local/emhttp/plugins/&amp;amp;name;&amp;#34;&amp;gt; &amp;lt;!ENTITY github &amp;#34;Squidly271/community.applications&amp;#34;&amp;gt; &amp;lt;!ENTITY pluginURL &amp;#34;https://raw.githubusercontent.com/&amp;amp;github;/master/plugins/&amp;amp;name;.plg&amp;#34;&amp;gt; ]&amp;gt; &amp;lt;PLUGIN name=&amp;#34;&amp;amp;name;&amp;#34; author=&amp;#34;&amp;amp;author;&amp;#34; version=&amp;#34;&amp;amp;version;&amp;#34; launch=&amp;#34;&amp;amp;launch;&amp;#34; pluginURL=&amp;#34;&amp;amp;pluginURL;&amp;#34; min=&amp;#34;6.9.0&amp;#34; support=&amp;#34;https://lime-technology.com/forums/topic/38582-plug-in-community-applications/&amp;#34; icon=&amp;#34;users&amp;#34;&amp;gt; &amp;lt;CHANGES&amp;gt; ###2022.02.06 - Added: Date updated for docker containers - Changed: Graphs going forward will now only populate to 7 months - Fixed: Not all dates present in the sidebar would get translated - Added: Ability in additional requirements to have a link for CA to perform a search - Added: Support for additional moderation options - Fixed: Install Multiple containers progress window was displaying white text on a white background (RC3 and possibly RC1/2) ###2015.</description>
+    </item>
+    
+    <item>
+      <title>Writing plugins</title>
+      <link>https://lowess.github.io/unraid-docs/docs/plugins/01-writing-plugins/</link>
+      <pubDate>Wed, 23 Feb 2022 13:14:39 +1000</pubDate>
+      
+      <guid>https://lowess.github.io/unraid-docs/docs/plugins/01-writing-plugins/</guid>
+      <description> TODO
+ </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+baseURL = "https://lowess.github.io/unraid-docs"
+languageCode = "en-us"
+title = "Unraid Docs"
+theme = "hugo-whisper-theme"
+publishDir = "docs"
+
+enableEmoji = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 2
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/docs'
+  homepage_button_text = 'Read The Docs'
+  homepage_intro = 'Unraid Docs - Unleash your knowledge !'
+  homepage_image = '/images/unraid.png'
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Unraid Docs is a documentation website about Unraid."
+    meta_og_title = "Unraid Docs"
+    meta_og_type = "website"
+    meta_og_url = "https://lowess.github.io/unraid-docs/"
+    meta_og_image = "https://craftassets.unraid.net/uploads/_1200x630_crop_center-center_82_none/seo-unraid.png?mtime=1535402747"
+    meta_og_description = "Unraid Docs is a documentation theme built with Hugo."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@DambrineF"
+    meta_twitter_creator = "@DambrineF"
+
+  [params.logo]
+      mobile = "/images/logo-mobile.svg"
+      standard  = "/images/logo.svg"

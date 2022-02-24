@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Unraid Docs</title>
+    <link>https://lowess.github.io/unraid-docs/docs/docker/</link>
+    <description>Recent content in Docker on Unraid Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Feb 2022 13:14:39 +1000</lastBuildDate><atom:link href="https://lowess.github.io/unraid-docs/docs/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to docker</title>
+      <link>https://lowess.github.io/unraid-docs/docs/docker/00-intro/</link>
+      <pubDate>Wed, 23 Feb 2022 13:14:39 +1000</pubDate>
+      
+      <guid>https://lowess.github.io/unraid-docs/docs/docker/00-intro/</guid>
+      <description>Taken from Unraid Forum &amp;gt; Docker Template Xml Schema
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;Container&amp;gt; &amp;lt;Name&amp;gt;Pints&amp;lt;/Name&amp;gt; &amp;lt;Description&amp;gt;Raspberry Pints, beer tap display app[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW&amp;lt;/Description&amp;gt; &amp;lt;Registry&amp;gt;https://registry.hub.docker.com/u/sparklyballs/pints/&amp;lt;/Registry&amp;gt; &amp;lt;Repository&amp;gt;sparklyballs/pints&amp;lt;/Repository&amp;gt; &amp;lt;BindTime&amp;gt;true&amp;lt;/BindTime&amp;gt; &amp;lt;Privileged&amp;gt;false&amp;lt;/Privileged&amp;gt; &amp;lt;Environment/&amp;gt; &amp;lt;Networking&amp;gt; &amp;lt;Mode&amp;gt;bridge&amp;lt;/Mode&amp;gt; &amp;lt;Publish&amp;gt; &amp;lt;Port&amp;gt; &amp;lt;HostPort&amp;gt;81&amp;lt;/HostPort&amp;gt; &amp;lt;ContainerPort&amp;gt;80&amp;lt;/ContainerPort&amp;gt; &amp;lt;Protocol&amp;gt;tcp&amp;lt;/Protocol&amp;gt; &amp;lt;/Port&amp;gt; &amp;lt;/Publish&amp;gt; &amp;lt;/Networking&amp;gt; &amp;lt;Data&amp;gt; &amp;lt;Volume&amp;gt; &amp;lt;HostDir&amp;gt;/mnt/cache/appdata/pints/www&amp;lt;/HostDir&amp;gt; &amp;lt;ContainerDir&amp;gt;/var/www/Pints&amp;lt;/ContainerDir&amp;gt; &amp;lt;Mode&amp;gt;rw&amp;lt;/Mode&amp;gt; &amp;lt;/Volume&amp;gt; &amp;lt;Volume&amp;gt; &amp;lt;HostDir&amp;gt;/mnt/cache/appdata/pints/config&amp;lt;/HostDir&amp;gt; &amp;lt;ContainerDir&amp;gt;/config&amp;lt;/ContainerDir&amp;gt; &amp;lt;Mode&amp;gt;rw&amp;lt;/Mode&amp;gt; &amp;lt;/Volume&amp;gt; &amp;lt;/Data&amp;gt; &amp;lt;Version&amp;gt;05616fd2&amp;lt;/Version&amp;gt; &amp;lt;WebUI&amp;gt;http://[iP]:[PORT:80]/&amp;lt;/WebUI&amp;gt; &amp;lt;Banner&amp;gt;http://whatsmybeeragain.com/wp-content/uploads/2013/12/Whats-My-Beer-Logo-Banner-2-01-e1318366883801.png&amp;lt;/Banner&amp;gt; &amp;lt;Icon&amp;gt;http://fullersbarbeerfest.co.uk/files/6113/8705/6693/light-beer.png&amp;lt;/Icon&amp;gt; &amp;lt;ExtraParams&amp;gt;&amp;lt;/ExtraParams&amp;gt; &amp;lt;/Container&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://lowess.github.io/unraid-docs/docs/docker/</loc>
+    <lastmod>2022-02-24T13:14:39+10:00</lastmod>
+  </url><url>
+    <loc>https://lowess.github.io/unraid-docs/docs/plugins/</loc>
+    <lastmod>2022-02-24T13:14:39+10:00</lastmod>
+  </url><url>
+    <loc>https://lowess.github.io/unraid-docs/docs/docker/00-intro/</loc>
+    <lastmod>2022-02-23T13:14:39+10:00</lastmod>
+  </url><url>
+    <loc>https://lowess.github.io/unraid-docs/docs/plugins/00-intro/</loc>
+    <lastmod>2022-02-23T13:14:39+10:00</lastmod>
+  </url><url>
+    <loc>https://lowess.github.io/unraid-docs/</loc>
+    <lastmod>2022-02-23T13:14:39+10:00</lastmod>
+  </url><url>
+    <loc>https://lowess.github.io/unraid-docs/docs/plugins/01-writing-plugins/</loc>
+    <lastmod>2022-02-23T13:14:39+10:00</lastmod>
+  </url><url>
+    <loc>https://lowess.github.io/unraid-docs/docs/</loc>
+    <lastmod>2022-02-24T13:14:39+10:00</lastmod>
+  </url><url>
+    <loc>https://lowess.github.io/unraid-docs/categories/</loc>
+  </url><url>
+    <loc>https://lowess.github.io/unraid-docs/tags/</loc>
+  </url>
+</urlset>
