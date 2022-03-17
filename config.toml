@@ -1,4 +1,4 @@
-baseURL = "https://lowess.github.io/unraid-docs"
+baseURL = "https://lowess.github.io/unraid-docs/"
 languageCode = "en-us"
 title = "Unraid Docs"
 theme = "hugo-whisper-theme"
